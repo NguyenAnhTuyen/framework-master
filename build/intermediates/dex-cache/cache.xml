@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-01a902e85f95d020d05963eed8509ce9e65a562d.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-ce8f0adf7d23f6f6dc1d2e108c79effcc1337c6c.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-cb136e9e94011f10abdd70db96f887b8a065717d.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-56f8bcdaaf3f5104f38f48d2ccae88ec0f404357.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-22cd8813e1c2d5ad73a3af5f9f8fb7ef8b853e1d.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-9c58bbb37494599d085cf31f0bc1900b976f72e7.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-c06c3f70f76c4879fa67513a7b37f4dda234136a.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\framework-master\intro-slider-lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="563cf7d7898c84c7273293bff789645b7e470017">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-ff47d3f090f4108d4a9d5d46b61efd192cfc6cd5.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-e8a6aa54cf91d78dc350b3189ba09fd5cd2dd5f5.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-8132306586deaf7970d17690a09f20077b2166d2.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-4882ee5dfbc985129052e20929cee4c2a25290a9.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-da472b4920ffb2429497b98d3aafe50f2a629b41.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\framework-master\parallax-effect-lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9df42c5e4da461884eebab5abeecfcec225c527a">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-0e090aedc24ea06618d4da036d8d2bd2388d1f45.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-9f276f5a1132968686b10d4e759a24fbfcc2d7ef.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-83848f50b71e853e969a32e8476e4fa4c46897dc.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\framework-master\odoo-rpc-v3\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b7fe08cb55b801c2d842aefa26b343ae37fd650">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-100f800dd8d1d4af7a78a9dc2bd644005416e860.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-5b592ced93683ecc1363e03d2d544cc6c70d4814.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-fa82ecdf9fc2cc65953a8ca33d1a246d412912a6.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-e90692cd7c76dc007e5838abd4741a948914e5aa.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-3fbf5749bc2f9141789093eb9e119466d5a2faaf.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-6c341c66585680f22088e80114419499e0ccfb38.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-42a897341e23e8570d4b8dda44e2bc07915ae8ac.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-ec9f7072cfb22950db1587d2e6f12ca4af144fe4.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-eb6b3236e82e6796361d1637d467ed88a92a5f60.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-2ab0513616b65960bb6ff1cb7de0d31e27ac61c2.jar" />
+    </item>
+    <item
+        jar="F:\AndroidStudio\store\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-6d1a8f602fa02e8a865175c6df3fedfcd188a3ba.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-8c3301f41d5340ed28425e3ec0c5762ad1e0656b.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-3ad0b30bedfec9da437da3ef7e34b2a38de41e64.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-9be0b94230c99e15b4b9d7b7ac4a91b47fd5a7bc.jar" />
+    </item>
+    <item
+        jar="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="F:\HocTapUIT\HK9\framework-master\app\build\intermediates\pre-dexed\debug\classes-fe2982c43008c64c5636c1cac6bf64b9f42f2466.jar" />
+    </item>
+
+</items>
