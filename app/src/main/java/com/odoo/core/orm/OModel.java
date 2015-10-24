@@ -80,7 +80,7 @@ public class OModel implements ISyncServiceListener {
     public static final String KEY_INSERT_IDS = "key_insert_ids";
     public static final int INVALID_ROW_ID = -1;
     public static OSQLite sqLite = null;
-    private Context mContext;
+    public Context mContext;
     private OUser mUser;
     private String model_name = null;
     private List<OColumn> mColumns = new ArrayList<>();

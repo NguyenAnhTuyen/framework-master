@@ -21,6 +21,7 @@ import android.widget.Toast;
 import com.odoo.R;
 import com.odoo.addons.customers.CustomerDetails;
 import com.odoo.addons.products.models.ProductProduct;
+import com.odoo.addons.products.models.ProductTemplate;
 import com.odoo.core.orm.ODataRow;
 import com.odoo.core.support.addons.fragment.BaseFragment;
 import com.odoo.core.support.addons.fragment.IOnSearchViewChangeListener;
@@ -49,6 +50,8 @@ public class Products extends BaseFragment implements
     @Override
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container,Bundle savedInstanceState){
+        setHasOptionsMenu(true);
+
         return inflater.inflate(R.layout.common_listview,container,false);
     }
     @Override
@@ -60,18 +63,18 @@ public class Products extends BaseFragment implements
         listAdapter =new OCursorListAdapter(getActivity(),null,R.layout.product_row_item);
 
         listAdapter.setOnViewBindListener(this);
-        listAdapter.setHasSectionIndexers(true,"name_template");
+        listAdapter.setHasSectionIndexers(true, "name_template");
         listView.setAdapter(listAdapter);
         listView.setFastScrollAlwaysVisible(true);
         listView.setOnItemClickListener(this);
         setHasFloatingButton(view, R.id.fabButton, listView, this);
-
+        setHasSyncStatusObserver(TAG, this, db());//db() fai la model ProductProduct
         getLoaderManager().initLoader(0,null,this);
     }
 
     @Override
     public void onViewBind(View view, Cursor cursor, ODataRow row) {
-        OControls.setText(view, R.id.productName, row.getString("name_template"));
+        OControls.setText(view, R.id.productName, row.getString("name"));
     }
 
     @Override
@@ -142,7 +145,7 @@ public class Products extends BaseFragment implements
     @Override
     public void onRefresh() {
         if (inNetwork()) {
-            parent().sync().requestSync(ProductProduct.AUTHORITY);
+            parent().sync().requestSync(ProductTemplate.AUTHORITY);
             setSwipeRefreshing(true);
         } else {
             hideRefreshingProgress();

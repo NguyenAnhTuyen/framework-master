@@ -32,9 +32,9 @@
         android:largeHeap="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".core.account.OdooLoginModify"
+            android:name=".addons.OdooLoginModify"
             android:label="${applicationName}" >
-
+            <!--android:name=".core.account.OdooLoginModify"-->
             <!-- android:name=".modify.connectActivity" -->
             <!-- android:label="@string/title_activity_connect" -->
             android:screenOrientation="portrait" >
@@ -120,46 +120,49 @@
         </service>
         <!-- Sync Provider & Service products-->
         <provider
-            android:name=".addons.products.providers.ProductSyncProvider"
-            android:authorities="${applicationId}.core.provider.content.sync.product_product"
-            android:label="@string/sync_label_product"
-            android:multiprocess="true" />
-        <service
-            android:name=".addons.products.services.ProductSyncService"
+            android:authorities="com.odoo.addons.products.product_products"
+            android:name="com.odoo.addons.products.providers.ProductSyncProvider"
+            android:label="Show Products"
+            android:multiprocess="true"/>
+        <service android:name=".addons.products.services.ProductSyncService"
             android:exported="true"
-            android:process=":sync_product">
+            android:process=":sync_products">
             <intent-filter>
-                <action android:name="android.content.SyncAdapter" />
+                <action android:name="android.content.SyncAdapter"/>
             </intent-filter>
-
             <meta-data
                 android:name="android.content.SyncAdapter"
-                android:resource="@xml/product_sync_adapter" />
+                android:resource="@xml/product_sync_adapter"/>
         </service>
-        <!-- <service android:name="com.odoo.addons.project.services.ProjectSyncService" -->
-        <!-- android:exported="true" -->
-        <!-- android:process=":sync_projects"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.content.SyncAdapter"/> -->
-        <!-- </intent-filter> -->
+        <!--<provider-->
+            <!--android:name="com.odoo.addons.products.providers.ProductSyncProvider"-->
+            <!--android:authorities="com.odoo.addons.products.product_products"-->
+            <!--android:label="@string/sync_label_product"-->
+            <!--android:multiprocess="true" />-->
+        <!--<service-->
+            <!--android:name=".addons.products.services.ProductSyncService"-->
+            <!--android:exported="true"-->
+            <!--android:process=":sync_products">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.content.SyncAdapter" />-->
+            <!--</intent-filter>-->
 
+            <!--<meta-data-->
+                <!--android:name="android.content.SyncAdapter"-->
+                <!--android:resource="@xml/product_sync_adapter" />-->
+        <!--</service>-->
 
-        <!-- <meta-data -->
-        <!-- android:name="android.content.SyncAdapter" -->
-        <!-- android:resource="@xml/project_sync_adapter" -->
-        <!-- /> -->
-        <!-- </service> -->
         <activity
             android:name=".addons.customers.CustomerDetails"
             android:windowSoftInputMode="adjustPan" />
         <!-- android:name=".core.account.OdooLoginModify" -->
         <!-- android:label="${applicationName}" -->
+        <!--<activity-->
+            <!--android:name=".modify.connectActivity"-->
+            <!--android:label="@string/title_activity_connect" >-->
+        <!--</activity>-->
         <activity
-            android:name=".modify.connectActivity"
-            android:label="@string/title_activity_connect" >
-        </activity>
-        <activity
-            android:name=".indexActivity"
+            android:name=".addons.indexActivity"
             android:label="@string/title_activity_index" >
         </activity>
     </application>

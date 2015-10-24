@@ -11,6 +11,7 @@ import com.odoo.core.support.OUser;
 public class ProductSyncService extends OSyncService {
 
     public static final String TAG= ProductSyncService.class.getSimpleName();
+
     @Override
     public OSyncAdapter getSyncAdapter(OSyncService service, Context context) {
         return new OSyncAdapter(getApplicationContext(), ProductProduct.class,service,true);
@@ -20,4 +21,5 @@ public class ProductSyncService extends OSyncService {
     public void performDataSync(OSyncAdapter adapter, Bundle extras, OUser user) {
         adapter.syncDataLimit(80);
     }
+
 }

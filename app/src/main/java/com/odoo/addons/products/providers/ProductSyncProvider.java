@@ -1,6 +1,7 @@
 package com.odoo.addons.products.providers;
 
 import com.odoo.addons.products.models.ProductProduct;
+import com.odoo.addons.products.models.ProductTemplate;
 import com.odoo.core.orm.provider.BaseModelProvider;
 
 public class ProductSyncProvider extends BaseModelProvider {
@@ -8,6 +9,6 @@ public class ProductSyncProvider extends BaseModelProvider {
 
     @Override
     public String authority() {
-        return ProductProduct.AUTHORITY;
+        return ProductTemplate.AUTHORITY;
     }
 }
